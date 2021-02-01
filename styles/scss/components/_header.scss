@@ -1,0 +1,21 @@
+.container {
+    background-color: $color-fondo-personalizado;
+    display: flex;
+    // flex-direction: row;   -->  no cal, per defecte fa Row, si no li dius Column 
+    justify-content: center;
+    padding-top: 40px;
+    display: flex;
+    h1 {        
+        font-size: 30px;
+        color: white;
+        background-color: salmon;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+        margin-right: 8%;
+        background-color: salmon;
+    }
+}
